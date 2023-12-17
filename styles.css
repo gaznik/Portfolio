@@ -127,20 +127,17 @@ main {
 }
 
 #contact ul {
-  list-style: none;
   padding: 0;
 }
 
 #contact ul li {
   margin-bottom: 10px;
+  list-style: none;
 }
 
-#contact ul li::before {
-  content: "\2022";
-  color: #333;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+#contact a {
+color: blue;
+text-decoration: underline;
 }
 
 @media screen and (max-width: 1000px) {
